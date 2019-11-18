@@ -1,4 +1,7 @@
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
+import matplotlib.gridspec as gridspec
 import numpy as np
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 
@@ -39,7 +42,8 @@ def plot_input_output(title,
 
     fig = plt.figure(figsize=(figsize[0], figsize[1] * 0.99))
     fig.suptitle('$' + title + '$', x=0.5, y=0.99)
-    gs = fig.add_gridspec(nrows=4, ncols=4, wspace=0.3, hspace=0.2, height_ratios=height_ratios)
+    # gs = fig.add_gridspec(nrows=4, ncols=4, wspace=0.3, hspace=0.2, height_ratios=height_ratios)
+    gs = gridspec.GridSpec(nrows=4, ncols=4, figure=fig, wspace=0.3, hspace=0.2, height_ratios=height_ratios)
     ax_x = fig.add_subplot(gs[:, 0])
 
     ax_y_inst = fig.add_subplot(gs[0, 1], sharex=ax_x)

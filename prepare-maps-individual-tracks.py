@@ -31,7 +31,7 @@ def collect_all_piece_ids(synthnames):
     pids = set()
     for synthname in synthnames:
         for base, dirs, files in os.walk(synthname):
-            candidates = fnmatch.filter(files, '*MUS*.flac')
+            candidates = fnmatch.filter(files, '*MUS*.wav')
             if len(candidates) > 0:
                 for c in candidates:
                     _, _, pid = desugar(c)
@@ -44,7 +44,7 @@ def collect_all_filenames(synthnames, include):
     filenames = []
     for synthname in synthnames:
         for base, dirs, files in os.walk(synthname):
-            candidates = fnmatch.filter(files, '*MUS*.flac')
+            candidates = fnmatch.filter(files, '*MUS*.wav')
             if len(candidates) > 0:
                 for c in candidates:
                     _, _, pid = desugar(c)
@@ -56,7 +56,7 @@ def collect_all_filenames(synthnames, include):
 
 def write_to_files(base_directory, filenames_synthnames):
     for filename, synthname in filenames_synthnames:
-        audiofilename = filename + '.flac'
+        audiofilename = filename + '.wav'
         midifilename = filename + '.mid'
         instrument = synthname
         split_filename = os.path.basename(filename)

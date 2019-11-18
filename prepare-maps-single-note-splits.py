@@ -35,7 +35,7 @@ def collect_all_filenames(synthnames):
     filenames = defaultdict(lambda: defaultdict(list))
     for synthname in synthnames:
         for base, dirs, files in os.walk(synthname):
-            candidates = fnmatch.filter(files, 'MAPS_ISOL_NO_*.flac')
+            candidates = fnmatch.filter(files, 'MAPS_ISOL_NO_*.wav')
             if len(candidates) > 0:
                 for c in candidates:
                     pid, volume, midinote = desugar(c)
@@ -46,7 +46,7 @@ def collect_all_filenames(synthnames):
 
 def write_to_file(f, filenames_synthnames):
     for filename, synthname in sorted(filenames_synthnames):
-        audiofilename = filename + '.flac'
+        audiofilename = filename + '.wav'
         midifilename = filename + '.mid'
         instrument = synthname
         f.write('{},{},{}\n'.format(audiofilename, midifilename, instrument))

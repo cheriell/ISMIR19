@@ -1,3 +1,5 @@
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import torch
 import argparse
@@ -344,7 +346,7 @@ def main():
     fold_filenames = [
         'train/MAPS_MUS-chpn-p10_AkPnStgb',
         'test/MAPS_MUS-chpn-p14_ENSTDkAm',
-        'test/MAPS_MUS-chpn-p19_ENSTDkCl'
+        'test/MAPS_MUS-mz_331_3_ENSTDkCl'
     ]
     fold_files = []
     for fold_filename in fold_filenames:
