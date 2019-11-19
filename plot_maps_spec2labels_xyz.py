@@ -163,7 +163,7 @@ def plot_fold(direction,
 
         fold = os.path.basename(fold_file)
         start = 0
-        end = 190
+        end = 95
 
         adjustments = dict(
             left=0.02,
@@ -344,9 +344,9 @@ def main():
     instrument_filename = './splits/maps-individual-tracks/instruments'
     fold_base = './splits/maps-individual-tracks'
     fold_filenames = [
-        'train/MAPS_MUS-chpn-p10_AkPnStgb',
+        # 'train/MAPS_MUS-chpn-p10_AkPnStgb',
         # 'test/MAPS_MUS-chpn-p14_ENSTDkAm',
-        'test/MAPS_MUS-mz_331_3_ENSTDkCl'
+        'test/MAPS_MUS-mz_331_3_ENSTDkCl',
     ]
     fold_files = []
     for fold_filename in fold_filenames:
