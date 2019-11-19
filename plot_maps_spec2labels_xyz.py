@@ -162,8 +162,8 @@ def plot_fold(direction,
         sio = collect_input_output(device, model, loader, n_samples)
 
         fold = os.path.basename(fold_file)
-        start = 100
-        end = 150
+        start = 0
+        end = 190
 
         adjustments = dict(
             left=0.02,
@@ -345,7 +345,7 @@ def main():
     fold_base = './splits/maps-individual-tracks'
     fold_filenames = [
         'train/MAPS_MUS-chpn-p10_AkPnStgb',
-        'test/MAPS_MUS-chpn-p14_ENSTDkAm',
+        # 'test/MAPS_MUS-chpn-p14_ENSTDkAm',
         'test/MAPS_MUS-mz_331_3_ENSTDkCl'
     ]
     fold_files = []
