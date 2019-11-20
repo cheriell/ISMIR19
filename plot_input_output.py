@@ -40,18 +40,18 @@ def plot_input_output(title,
     inst_start = vel_end
     inst_end = inst_start + 9
 
-    fig = plt.figure(figsize=(figsize[0], figsize[1] * 0.99))
+    fig = plt.figure(figsize=(figsize[0], figsize[1] * 1.2))
     # fig.suptitle('$' + title + '$', x=0.5, y=0.99)
     # gs = fig.add_gridspec(nrows=4, ncols=4, wspace=0.3, hspace=0.2, height_ratios=height_ratios)
     # gs = gridspec.GridSpec(nrows=4, ncols=4, figure=fig, wspace=0.3, hspace=0.2, height_ratios=height_ratios)
-    height_ratios = [90,90,1]
+    height_ratios = [120,90,90,1]
     width_ratios = [1, 90]
-    gs = gridspec.GridSpec(nrows=3, ncols=2, figure=fig, wspace=0.3, hspace=0.2, height_ratios=height_ratios, width_ratios=width_ratios)
+    gs = gridspec.GridSpec(nrows=4, ncols=2, figure=fig, wspace=0.3, hspace=0.2, height_ratios=height_ratios, width_ratios=width_ratios)
     ax_x = fig.add_subplot(gs[0, 1])
 
     # ax_y_inst = fig.add_subplot(gs[0, 1], sharex=ax_x)
     ax_y_vel = fig.add_subplot(gs[1, 1], sharex=ax_x)
-    # ax_y_phase = fig.add_subplot(gs[2, 1], sharex=ax_x)
+    ax_y_phase = fig.add_subplot(gs[2, 1], sharex=ax_x)
     # ax_z = fig.add_subplot(gs[3, 1], sharex=ax_x)
 
     # ax_x_inv = fig.add_subplot(gs[:, 2], sharex=ax_x)
@@ -71,9 +71,9 @@ def plot_input_output(title,
 
     ax = ax_x
     im = ax.imshow(x_true.T, origin='lower', cmap='Greys', vmin=min_x, vmax=max_x, aspect='auto')
-    ax.set_ylabel('Log Frequency (Hz)', fontsize=font_size)
-    ax.set_yticks([50, 100, 150])
-    ax.set_yticklabels([50, 100, 150], fontsize=font_size-2)
+    ax.set_ylabel('Bin Index', fontsize=font_size)
+    ax.set_yticks([0, 50, 100, 150])
+    ax.set_yticklabels([0, 50, 100, 150], fontsize=font_size-2)
     ax.set_xticks([25, 50, 75])
     ax.set_xticklabels([1, 2, 3], fontsize=font_size-2)
     #ax.yaxis.set_major_locator(plt.NullLocator())
@@ -116,10 +116,9 @@ def plot_input_output(title,
 
     ax = ax_y_vel
     ax.set_ylabel('MIDI pitch', fontsize=font_size)
-    ax.set_ylim([19, 67])
-    ax.set_yticks([19, 39, 59])
-    ax.set_yticklabels([40, 60, 80], fontsize=font_size-2)
-    ax.set_xlabel('Time (seconds)', fontsize=font_size)
+    ax.set_ylim([29, 67])
+    ax.set_yticks([39, 59])
+    ax.set_yticklabels([60, 80], fontsize=font_size-2)
     ax.set_xticks([25, 50, 75])
     ax.set_xticklabels([1, 2, 3], fontsize=font_size-2)
     im = ax.imshow(y.T, origin='lower', cmap='Greys', vmin=min_y, vmax=max_y, aspect='auto')
@@ -137,12 +136,19 @@ def plot_input_output(title,
     #cbar.ax.tick_params(labelsize=labelsize)
 
     ############################################################################
-    #y = y_pred[:, phase_start:phase_end]
-    #min_y = 0
-    #max_y = np.max(y)
+    y = y_pred[:, phase_start:phase_end]
+    min_y = 0
+    max_y = np.max(y)
 
-    #ax = ax_y_phase
-    #im = ax.imshow(y.T, origin='lower', cmap='gray_r', vmin=min_y, vmax=max_y, aspect='auto')
+    ax = ax_y_phase
+    ax.set_ylabel('MIDI pitch', fontsize=font_size)
+    ax.set_ylim([29, 67])
+    ax.set_yticks([39, 59])
+    ax.set_yticklabels([60, 80], fontsize=font_size-2)
+    ax.set_xlabel('Time (seconds)', fontsize=font_size)
+    ax.set_xticks([25, 50, 75])
+    ax.set_xticklabels([1, 2, 3], fontsize=font_size-2)
+    im = ax.imshow(y.T, origin='lower', cmap='Greys', vmin=min_y, vmax=max_y, aspect='auto')
     #ax.text(length * 0.3, 5, 'note phase', fontdict=dict(size=font_size))
     #ax.xaxis.set_major_locator(plt.NullLocator())
     #ax.yaxis.set_major_locator(plt.NullLocator())
