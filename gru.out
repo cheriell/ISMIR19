@@ -1,0 +1,2502 @@
+nohup: ignoring input
+len(train_loader) 12232
+i_epoch 0
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.93 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+i_epoch 1
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 2
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 3
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.93 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 4
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.93 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+i_epoch 5
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 6
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.93 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 7
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 8
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 9
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 10
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 11
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 12
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 13
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 14
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+i_epoch 15
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 16
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 17
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.96 f 0.95
+i_epoch 18
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+i_epoch 19
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 20
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 21
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 22
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 23
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.96 f 0.95
+i_epoch 24
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 25
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 26
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 27
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.93 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 28
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 29
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.93 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 30
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.96 f 0.95
+i_epoch 31
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.93 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 32
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.96 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.96 f 0.95
+i_epoch 33
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.95 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.93 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+i_epoch 34
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 35
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.96 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.96 f 0.95
+i_epoch 36
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 37
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 38
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.96 f 0.95
+i_epoch 39
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 40
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.95 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.93 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+i_epoch 41
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 42
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 43
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 44
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.96 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.96 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.96 f 0.95
+i_epoch 45
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 46
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 47
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 48
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 49
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 50
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 51
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.96 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.96 f 0.95
+i_epoch 52
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.95 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.93 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 53
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 54
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 55
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 56
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.95 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.93 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+i_epoch 57
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.96 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.96 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.96 f 0.95
+i_epoch 58
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.96 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.96 f 0.95
+i_epoch 59
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 60
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 61
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 62
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 63
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 64
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 65
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.95 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.93 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 66
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 67
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 68
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 69
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 70
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 71
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 72
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 73
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 74
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 75
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 76
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 77
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 78
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.95 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.96 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.93 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+i_epoch 79
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 80
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 81
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 82
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.96 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.96 f 0.95
+i_epoch 83
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 84
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 85
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.96 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.96 f 0.95
+i_epoch 86
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 87
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 88
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 89
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 90
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.91 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 91
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 92
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.94 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.96 r 0.95 f 0.95
+i_epoch 93
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 94
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 95
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 96
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.94 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 97
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 98
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.93 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+i_epoch 99
+evaluate midifilename ./data/maps_piano/data/AkPnBcht/MUS/MAPS_MUS-alb_se3_AkPnBcht.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.94 r 0.95 f 0.94
+evaluate midifilename ./data/maps_piano/data/AkPnCGdD/MUS/MAPS_MUS-alb_esp2_AkPnCGdD.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.97 f 0.96
+evaluate midifilename ./data/maps_piano/data/AkPnStgb/MUS/MAPS_MUS-alb_esp2_AkPnStgb.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/AkPnBsdf/MUS/MAPS_MUS-alb_se3_AkPnBsdf.mid
+y_true.shape (6240, 88)
+y_pred.shape (6240, 88)
+p 0.92 r 0.95 f 0.93
+evaluate midifilename ./data/maps_piano/data/SptkBGAm/MUS/MAPS_MUS-alb_esp2_SptkBGAm.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.94 r 0.95 f 0.95
+evaluate midifilename ./data/maps_piano/data/SptkBGCl/MUS/MAPS_MUS-alb_esp2_SptkBGCl.mid
+y_true.shape (3168, 88)
+y_pred.shape (3168, 88)
+p 0.95 r 0.95 f 0.95
