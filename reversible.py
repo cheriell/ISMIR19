@@ -19,7 +19,8 @@ def reverse(u):
 def permutation_matrix(n):
     return torch.eye(n)[torch.randperm(n)]
 
-
+# this is where the neural network structure used for {s,t}_{1,2} is defined.
+# here, they implemented a deep network with 3 layers and ReLU activation in the hidden layers.
 def transform(w):
     return nn.Sequential(
         nn.Linear(w, w, bias=True),

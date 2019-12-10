@@ -21,7 +21,7 @@ def curve(start, end):
     xs = np.arange(0, duration)
     return (0.99 ** xs) * 5
 
-
+# get output encoding () from midifile
 def get_y_from_file(midifile, n_frames, audio_options):
     pattern = midi.MIDIFile(midifile)
     dt = float(audio_options['hop_size']) / float(audio_options['sample_rate'])
@@ -35,8 +35,8 @@ def get_y_from_file(midifile, n_frames, audio_options):
         note_start = int(np.round(onset / dt))
         note_end = int(np.round((onset + duration) / dt))
 
-        y_frames[note_start:note_end + 1, label] = curve(note_start, note_end + 1)
-        y_velocity[note_start:note_end + 1, label] = velocity / 127.
+        y_frames[note_start:note_end + 1, label] = curve(note_start, note_end + 1)   # note phase in the paper
+        y_velocity[note_start:note_end + 1, label] = velocity / 127.  # note velocity in the paper
 
     return y_frames, y_velocity
 
@@ -48,6 +48,89 @@ def get_xy_from_file(audiofilename, midifilename, _audio_options):
     y_frames, y_velocity = get_y_from_file(midifilename, len(x), audio_options)
 
     return x, y_frames, y_velocity
+
+###############################################################################
+#   Use only pitch activation in the output encoding
+###############################################################################
+def get_y_from_file_pitch_only(midifile, n_frames, audio_options):
+    pattern = midi.MIDIFile(midifile)
+    dt = float(audio_options['hop_size']) / float(audio_options['sample_rate'])
+
+    y_pitch_activation = np.zeros((n_frames, 88)).astype(np.float32)
+    for onset, _pitch, duration, velocity, _channel in pattern.sustained_notes:
+        pitch = int(_pitch)
+        label = pitch - 21
+
+        note_start = int(np.round(onset / dt))
+        note_end = int(np.round((onset + duration) / dt))
+
+        y_pitch_activation[note_start:note_end + 1, label] = 1.    # note pitch activation
+
+    return y_pitch_activation
+
+
+def get_xy_from_file_pitch_only(audiofilename, midifilename, _audio_options):
+    spec_type, audio_options = utils.canonicalize_audio_options(_audio_options, mmspec)
+    x = np.array(spec_type(audiofilename, **audio_options))
+    y_pitch_activation = get_y_from_file_pitch_only(midifilename, len(x), audio_options)
+
+    return x, y_pitch_activation
+
+
+class SequenceContextDatasetPitchOnly(Dataset):
+    def __init__(self,
+                 audiofilename,
+                 midifilename,
+                 instrument,
+                 instruments,
+                 context,
+                 audio_options):
+        super().__init__()
+        self.audiofilename = audiofilename
+        self.midifilename = midifilename
+        self.audio_options = deepcopy(audio_options)
+
+        # input spectrogram, output pitch activations
+        spectrogram, y_pitch_activation = get_xy_from_file_pitch_only(
+            self.audiofilename,
+            self.midifilename,
+            self.audio_options
+        )
+
+        # spectrogram
+        self.spectrogram = FramedSignal(
+            spectrogram,
+            frame_size=context['frame_size'],
+            hop_size=context['hop_size'],
+            origin=context['origin'],
+        )
+
+        # note pitch activation
+        self.y_pitch_activation = FramedSignal(
+            y_pitch_activation,
+            frame_size=context['frame_size'],
+            hop_size=context['hop_size'],
+            origin=context['origin'],
+        )
+
+        if (len(self.spectrogram) != len(self.y_pitch_activation)):
+            raise RuntimeError('x and y do not have the same length.')
+
+    def __len__(self):
+        return len(self.spectrogram)
+
+    def __getitem__(self, index):
+        _, w, h = self.spectrogram.shape
+
+        _spectrogram = torch.FloatTensor(self.spectrogram[index].reshape(1, w, h))
+        _y_pitch_activation = torch.FloatTensor(self.y_pitch_activation[index].reshape(1, 1, 88))
+        return dict(
+            spectrogram=_spectrogram,
+            y_pitch_activation=_y_pitch_activation,
+        )
+################################################################################
+#   this is the end of my added(modified) functions
+################################################################################
 
 
 class SequenceContextDataset(Dataset):
@@ -66,27 +149,33 @@ class SequenceContextDataset(Dataset):
         self.instrument_number_onehot = torch.zeros(
             1, context['frame_size'], len(self.instruments)
         )
-        self.instrument_number_onehot[0, :, self.instruments[self.instrument]] = 1.
+        self.instrument_number_onehot[0, :, self.instruments[self.instrument]] = 1.   # instrument
         self.audio_options = deepcopy(audio_options)
 
+        # input spectrogram, note phase, note velocity
         spectrogram, y_frames, y_velocity = get_xy_from_file(
             self.audiofilename,
             self.midifilename,
             self.audio_options
         )
 
+        # spectrogram
         self.spectrogram = FramedSignal(
             spectrogram,
             frame_size=context['frame_size'],
             hop_size=context['hop_size'],
             origin=context['origin'],
         )
+
+        # note phase
         self.y_frames = FramedSignal(
             y_frames,
             frame_size=context['frame_size'],
             hop_size=context['hop_size'],
             origin=context['origin'],
         )
+
+        # note velocity
         self.y_velocity = FramedSignal(
             y_velocity,
             frame_size=context['frame_size'],
@@ -94,6 +183,7 @@ class SequenceContextDataset(Dataset):
             origin=context['origin'],
         )
 
+        # guassian noise
         self.fixed_noise = FramedSignal(
             # the noise should be strictly positive ...
             np.abs(np.random.normal(0, 1, (len(spectrogram), 7))),
@@ -125,7 +215,8 @@ class SequenceContextDataset(Dataset):
         )
 
 
-class Midi2SpecDataset(SequenceContextDataset):
+# class Midi2SpecDataset(SequenceContextDataset):
+class Midi2SpecDataset(SequenceContextDatasetPitchOnly):
     def __init__(self,
                  audiofilename,
                  midifilename,
@@ -145,17 +236,24 @@ class Midi2SpecDataset(SequenceContextDataset):
 
     def __getitem__(self, index):
         item = super().__getitem__(index)
+        # return dict(
+        #     x=torch.cat([
+        #         item['y_frames'],
+        #         item['y_velocity'],
+        #         item['instrument']
+        #     ], dim=-1),
+        #     y=item['spectrogram']
+        # )
         return dict(
             x=torch.cat([
-                item['y_frames'],
-                item['y_velocity'],
-                item['instrument']
+                item['y_pitch_activation']
             ], dim=-1),
             y=item['spectrogram']
         )
 
 
-class Spec2MidiDataset(SequenceContextDataset):
+# class Spec2MidiDataset(SequenceContextDataset):
+class Spec2MidiDataset(SequenceContextDatasetPitchOnly):
     def __init__(self,
                  audiofilename,
                  midifilename,
@@ -175,12 +273,18 @@ class Spec2MidiDataset(SequenceContextDataset):
 
     def __getitem__(self, index):
         item = super().__getitem__(index)
+        # return dict(
+        #     x=item['spectrogram'],
+        #     y=torch.cat([
+        #         item['y_frames'],
+        #         item['y_velocity'],
+        #         item['instrument']
+        #     ], dim=-1)
+        # )
         return dict(
             x=item['spectrogram'],
             y=torch.cat([
-                item['y_frames'],
-                item['y_velocity'],
-                item['instrument']
+                item['y_pitch_activation']
             ], dim=-1)
         )
 
@@ -249,7 +353,7 @@ def get_dataset_individually(base_directory,
                              context,
                              audio_options,
                              clazz):
-
+    # build instrument dictionary
     instruments = dict()
     with open(instrument_filename, 'r') as instrument_file:
         rows = instrument_file.readlines()

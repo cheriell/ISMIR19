@@ -1,3 +1,5 @@
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import torch
 import argparse
@@ -284,7 +286,8 @@ def main():
         depth=5,
         ndim_tot=256,
         ndim_x=144,
-        ndim_y=185,
+        # ndim_y=185,
+        ndim_y=88,
         ndim_z=9,
         clamp=2,
         zeros_noise_scale=3e-2,  # very magic, much hack!

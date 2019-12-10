@@ -12,6 +12,11 @@ from audio_midi_dataset import get_data_loader
 from reversible import ReversibleModel
 import os
 
+#
+#
+# here is the main main
+#
+#
 
 def get_loss_factor(i, n_full):
     b = np.log(2) / n_full
@@ -40,7 +45,8 @@ def main():
         depth=5,
         ndim_tot=256,
         ndim_x=144,
-        ndim_y=185,
+        # ndim_y=185,
+        ndim_y=88,
         ndim_z=9,
         clamp=2,
         zeros_noise_scale=3e-2,  # very magic, much hack!

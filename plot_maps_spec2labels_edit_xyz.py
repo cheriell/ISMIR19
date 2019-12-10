@@ -1,3 +1,5 @@
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import torch
 import argparse
@@ -63,19 +65,24 @@ def collect_input_output(device, model, loader, n_samples):
             vel_end = 88 + 88
             inst_start = 88 + 88
             # y_edit[:, inst_start:] = torch.softmax(y_edit[:, inst_start:], dim=1)
-            for i in range(y_edit.size(0)):
+            # for i in range(y_edit.size(0)): # denoising y to y_edit
+            #     for j in range(y_edit.size(1)):
+            #         if j >= phase_start and j < phase_end and y_edit[i, j] < 2:
+            #             y_edit[i, j] = 0
+
+            #         if j >= vel_start and j < vel_end and y_edit[i, j] < 0.1:
+            #             y_edit[i, j] = 0
+
+            #         if j >= inst_start:
+            #             if y_edit[i, j] < 0.45:
+            #                 y_edit[i, j] = 0
+            #             else:
+            #                 y_edit[i, j] = 1
+
+            for i in range(y_edit.size(0)): # denoising y to y_edit
                 for j in range(y_edit.size(1)):
-                    if j >= phase_start and j < phase_end and y_edit[i, j] < 2:
+                    if y_edit[i, j] < 0.1:
                         y_edit[i, j] = 0
-
-                    if j >= vel_start and j < vel_end and y_edit[i, j] < 0.1:
-                        y_edit[i, j] = 0
-
-                    if j >= inst_start:
-                        if y_edit[i, j] < 0.45:
-                            y_edit[i, j] = 0
-                        else:
-                            y_edit[i, j] = 1
 
             # x_edit, _ = model.decode_padding(z_hat, zy_padding, y_edit)
             x_edit, _ = model.decode(z, y_edit)
@@ -320,7 +327,8 @@ def main():
         depth=5,
         ndim_tot=256,
         ndim_x=144,
-        ndim_y=185,
+        # ndim_y=185,
+        ndim_y=88,
         ndim_z=9,
         clamp=2,
         zeros_noise_scale=3e-2,  # very magic, much hack!
