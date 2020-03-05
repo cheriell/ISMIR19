@@ -11,6 +11,7 @@ import joblib
 import torch
 import utils
 import os
+import librosa
 
 
 memory = joblib.memory.Memory('./joblib_cache', mmap_mode='r', verbose=1)
@@ -43,12 +44,15 @@ def get_y_from_file(midifile, n_frames, audio_options):
 
 @memory.cache
 def get_xy_from_file(audiofilename, midifilename, _audio_options):
+
     spec_type, audio_options = utils.canonicalize_audio_options(_audio_options, mmspec)
-    x = np.array(spec_type(audiofilename, **audio_options))
-    y_frames, y_velocity = get_y_from_file(midifilename, len(x), audio_options)
-
-    return x, y_frames, y_velocity
-
+    x, fs = librosa.load(audiofilename, sr=16000, mono=True)
+    cqt_feat = librosa.cqt(x, fs, hop_length=512, n_bins=252, bins_per_octave=36)
+    cqt_feat = np.absolute(cqt_feat)
+    cqt_feat = np.swapaxes(cqt_feat, 0, 1)
+    y_frames, y_velocity = get_y_from_file(midifilename, len(cqt_feat), audio_options)
+    del x
+    return cqt_feat, y_frames, y_velocity
 
 class SequenceContextDataset(Dataset):
     def __init__(self,
