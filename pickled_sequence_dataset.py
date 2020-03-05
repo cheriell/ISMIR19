@@ -18,11 +18,13 @@ class PickledSequenceDataset(Dataset):
         self.audiofilename = original_data['audiofilename']
         self.midifilename = original_data['midifilename']
 
-        self.y_true_frames = original_data['y_true'][:, 0:88]
-        self.y_true_velocity = original_data['y_true'][:, 88:176]
+        # self.y_true_frames = original_data['y_true'][:, 0:88]
+        # self.y_true_velocity = original_data['y_true'][:, 88:176]
+        self.y_true_pitch_activation = original_data['y_true'][:, 0:88]
 
-        self.y_pred_frames = original_data['y_pred'][:, 0:88]
-        self.y_pred_velocity = original_data['y_pred'][:, 88:176]
+        # self.y_pred_frames = original_data['y_pred'][:, 0:88]
+        # self.y_pred_velocity = original_data['y_pred'][:, 88:176]
+        self.y_pred_pitch_activation = original_data['y_pred'][:, 0:88]
 
         # print('self.y_true_frames.shape', self.y_true_frames.shape)
         # print('self.y_true_velocity.shape', self.y_true_velocity.shape)
@@ -34,8 +36,9 @@ class PickledSequenceDataset(Dataset):
         x = torch.FloatTensor(
             np.stack(
                 [
-                    self.y_pred_frames[:, index],
-                    self.y_pred_velocity[:, index],
+                    # self.y_pred_frames[:, index],
+                    # self.y_pred_velocity[:, index],
+                    self.y_pred_pitch_activation[:, index],
 
                 ],
                 axis=-1
@@ -44,9 +47,10 @@ class PickledSequenceDataset(Dataset):
         y = torch.FloatTensor(
             np.stack(
                 [
-                    self.y_true_frames[:, index],
-                    self.y_true_velocity[:, index],
-                    (self.y_true_velocity[:, index] > 0) * 1
+                    # self.y_true_frames[:, index],
+                    # self.y_true_velocity[:, index],
+                    self.y_true_pitch_activation[:, index],
+                    # (self.y_true_velocity[:, index] > 0) * 1
                 ],
                 axis=-1
             )
